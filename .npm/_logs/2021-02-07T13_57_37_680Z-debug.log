@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'adduser' ]
+2 info using npm@6.14.8
+3 info using node@v14.15.0
+4 verbose config Skipping project config: /home/container/.npmrc. (matches userconfig)
+5 verbose npm-session 5bb4a0eafd9abcde
+6 verbose web login before first POST
+7 http fetch POST 401 https://registry.npmjs.org/-/v1/login 532ms
+8 verbose web login not supported, trying couch
+9 warn Email must be an email address
+10 warn Email must be an email address
+11 verbose login before first PUT {
+11 verbose login   _id: 'org.couchdb.user:a',
+11 verbose login   name: 'a',
+11 verbose login   password: 'XXXXX',
+11 verbose login   type: 'user',
+11 verbose login   roles: [],
+11 verbose login   date: '2021-02-07T13:57:35.142Z'
+11 verbose login }
+12 http fetch PUT 401 https://registry.npmjs.org/-/user/org.couchdb.user:a 1384ms
+13 verbose adduser before first PUT {
+13 verbose adduser   _id: 'org.couchdb.user:a',
+13 verbose adduser   name: 'a',
+13 verbose adduser   password: 'XXXXX',
+13 verbose adduser   email: 'mudarraruben69@gmail.com',
+13 verbose adduser   type: 'user',
+13 verbose adduser   roles: [],
+13 verbose adduser   date: '2021-02-07T13:57:36.530Z'
+13 verbose adduser }
+14 http fetch PUT 401 https://registry.npmjs.org/-/user/org.couchdb.user:a 1132ms
+15 verbose stack Error: Unable to authenticate, need: Basic
+15 verbose stack     at /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:107:17
+15 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+16 verbose statusCode 401
+17 verbose cwd /home/container
+18 verbose Linux 4.19.0-13-amd64
+19 verbose argv "/usr/bin/node" "/usr/bin/npm" "adduser"
+20 verbose node v14.15.0
+21 verbose npm  v6.14.8
+22 error code E401
+23 error Incorrect or missing password.
+24 error If you were trying to login, change your password, create an
+24 error authentication token or enable two-factor authentication then
+24 error that means you likely typed your password in incorrectly.
+24 error Please try again, or recover your password at:
+24 error     https://www.npmjs.com/forgot
+24 error
+24 error If you were doing some other operation then your saved credentials are
+24 error probably out of date. To correct this please try logging in again with:
+24 error     npm login
+25 verbose exit [ 1, true ]

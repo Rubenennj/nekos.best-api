@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@6.14.8
+3 info using node@v14.15.0
+4 verbose config Skipping project config: /home/container/.npmrc. (matches userconfig)
+5 verbose npm-session d513479217793564
+6 verbose publish [ '.' ]
+7 info lifecycle nekos.best@0.0.1~prepublish: nekos.best@0.0.1
+8 info lifecycle nekos.best@0.0.1~prepare: nekos.best@0.0.1
+9 info lifecycle nekos.best@0.0.1~prepublishOnly: nekos.best@0.0.1
+10 info lifecycle nekos.best@0.0.1~prepack: nekos.best@0.0.1
+11 info lifecycle nekos.best@0.0.1~postpack: nekos.best@0.0.1
+12 notice
+13 notice 📦  nekos.best@0.0.1
+14 notice === Tarball Contents ===
+15 notice 1.6kB   .npm/_cacache/index-v5/53/83/00864db86aaa7f105f8b65476025d87e7dc5f163ae79cc12c811de8afd94
+15 notice 1.0kB   .npm/_cacache/index-v5/5b/0b/0587a60dadfa94689c2e776b12825bcf2be06f87f7086d2f251d487e058f
+15 notice 1.2kB   .npm/_cacache/index-v5/00/07/079e7cd8eb2456d74b66f8adeb67f55c82df93f41877768cc59580c8aaa6
+15 notice 3.3kB   .npm/_cacache/index-v5/36/d6/0ec727dc46dd7a5b3d32487a89e6ffba1789d0a5f37a3874c6520a568849
+15 notice 19.6kB  .npm/_cacache/content-v2/sha512/6e/83/10d0149ba6340cbef2bc118aac1f17e28a81b07fa1a0308a98a40a8c9a56aebb2b2055a0aed27b054cc1a13f5490f2a64dbda628628f9181dc53c0d6d08b
+15 notice 1.6kB   .npm/_cacache/index-v5/6d/b4/12e4f8f473d36e6443d2e6c94ff24be84b218475353dd0040d0cc8be2e3c
+15 notice 1.5kB   .npm/_cacache/index-v5/f0/21/14e0b1a08839056c44f473c11f2b2a8c73d4e962ffb9e2043c6984b99524
+15 notice 3.3kB   .npm/_cacache/index-v5/4e/cb/181b542af5715304f09bc46022c0baa2bde37d2b7e9fa2b39cf626f467fb
+15 notice 1.7kB   .npm/_cacache/index-v5/9a/b7/191ddc77dd2ec2a1046ef9400745783ce59e45649ed778a1635c66feb4f0
+15 notice 1.5kB   .npm/_cacache/index-v5/fd/b5/1f29fcb4c24f835942a56a9a8927607645cc4f459345aa22a0a5e5150ad9
+15 notice 96.0kB  .npm/_cacache/content-v2/sha512/74/a4/22447c460fd3cf44850d216bd984f4cfa65d6b7ff3b14d82aca8a5038c1c18ca54ef57b4a348725bf6b6ad7f2ccceb009d2c23982f3b3bdeaa60e5ce2218
+15 notice 1.6kB   .npm/_cacache/index-v5/95/af/22c6a839205628feaf60de48f584fed7f9639fec3479b585882f8b30e3ee
+15 notice 2.0kB   .npm/_cacache/content-v2/sha512/ac/23/22facd07e4d5e32e1d745600bb6630b71ef0700c6ece250690dbf64aafb95e4986d5eec32465f5af399adc9c46f7ac7a14bb99a95fbbcbd637ca69c2fc2f
+15 notice 1B      .npm/_cacache/content-v2/sha512/0b/61/241d7c17bcbb1baee7094d14b7c451efecc7ffcbd92598a0f13d313cc9ebc2a07e61f007baf58fbf94ff9a8695bdd5cae7ce03bbf1e94e93613a00f25f21
+15 notice 1.6kB   .npm/_cacache/index-v5/d2/e0/2572e4f6479b462303996e05223b531b7f58c8edfbab4c0654964109ab80
+15 notice 1.3kB   .npm/_cacache/index-v5/ba/f5/258d66037ee22fc2e1f8b9056de5c39d251ddac9ee14c632f876d26a4abd
+15 notice 1.5kB   .npm/_cacache/index-v5/aa/4f/28c97f4a1f2436bab052ec0c4f696574d05f19a2a5edbc088b6992d96402
+15 notice 7.4kB   .npm/_cacache/content-v2/sha512/fa/27/2962e195c5c1c2925bbda526e2b27047a8eb989ee4d2e533cc700cf3419b6a2afcc6865bc4d53c6264f1b640cf1736067db382b325a503057611b68a8602
+15 notice 1.5kB   .npm/_cacache/index-v5/54/ad/2a9923fe219972066d2d7b8d66c171cce48580bc9393935ca538970568bf
+15 notice 1.6kB   .npm/_cacache/index-v5/53/39/2f4711e2fbb24e17b5bf28fe132e1bbde0120438640a6f27dd260b6f1d0f
+15 notice 716B    .npm/_cacache/index-v5/34/8e/30c54cce758990bcd1b33114c4aa8a9e5a25c152ac39d9feab22b7e13e00
+15 notice 23.8kB  .npm/_cacache/content-v2/sha512/dd/af/333854cdbbc5bbbc60ef8ece395e971ae3d4f72f5d8af31b69f29e079cba719b1f851bb1d2fc9643d24edde4dcb85e1902ac4824b2fbde63269cf18201f3
+15 notice 3.3kB   .npm/_cacache/index-v5/8c/3f/3f36a0c43685a86c104116ac6b2331e94c005abd54ee9d644a52e1770b8e
+15 notice 3.3kB   .npm/_cacache/index-v5/0f/e3/41e3226a4401e64172cfb5c228cc83b7d7901fae6b180159b6372743e49c
+15 notice 58.6kB  .npm/_cacache/content-v2/sha512/1d/06/46b7e7d06b7623311e93926b1ecba26508c499c34b3138b923afdf247869da92448735ae1a51f1262f116b50db03811a561ee4df57222b1be83a50c8ef76
+15 notice 1.6kB   .npm/_cacache/index-v5/30/10/481182a009504a6ea3f4d2eff68c1c697886b888c6ac8d8a50fc9651be86
+15 notice 1.1kB   .npm/_cacache/index-v5/0c/f6/492d7af722115ca18f328cce017e91ada962beb0adea68f213393af0928a
+15 notice 3.3kB   .npm/_cacache/index-v5/dc/8a/4dc2a1bdf5b195e99648a945ce742de5f6d0b1aac410a6fe3e7155933cc7
+15 notice 22.6kB  .npm/_cacache/content-v2/sha512/ba/d4/4dc6777d9124b6aa1ca2be8f65325b79aa00146ac1f681bec110e9faa7479f161db88231a8987cd628c00f9f684445e38f4190896912a8511c11a2d2ae71
+15 notice 17.5kB  .npm/_cacache/content-v2/sha512/87/c9/50f2d69c6589d1def3504e089b8feb4e0c7239ffe974e80bb63dcae2bff1a67add1e6a3e13c161f8d6c3bdc271c3890b048f5f6ad1daf375675e007b707a
+15 notice 3.3kB   .npm/_cacache/index-v5/7d/e8/5446c5cdae0493e4ad3b10347b77c8df4b17b5fbe14834f5c6b06faa9f95
+15 notice 1.6kB   .npm/_cacache/index-v5/d5/94/54c51c84af1b6017480f24da56e925ad6512ff0ebeb779d1c54017f57725
+15 notice 26.9kB  .npm/_cacache/content-v2/sha512/4f/8b/5ec002d2dfeaacae9188ffc76a34c2c855dabf83ff3953df073cc6ba1749bac536ef85753a44240ba8f1f7f9296898d57f2dd63a45711b069307e843899c
+15 notice 1.4kB   .npm/_cacache/index-v5/63/96/5f2f4d4e467fb40b1cb141ca2e4c1166a44587cd6b9c1696ae17155a9500
+15 notice 464.8kB .npm/_cacache/content-v2/sha512/57/06/6455a50020e07d98a75c6b423931e7cf3134094cd834a9d822d61b85de2c2c1702742f9b3f63af4041efa23e68ee57a8fdaed2a81b44dad27f6f80420beb
+15 notice 2.0kB   .npm/_cacache/index-v5/f2/80/6528ad495c75baffb6a64ea4eef8526ca831869df05c2f8869ef02d1182e
+15 notice 3.3kB   .npm/_cacache/index-v5/3b/c9/68da17f4dd09e12875ca6413db4655a89b5a5eb8613faca86038e97a5c72
+15 notice 889B    .npm/_cacache/index-v5/a4/7d/6b34890c764564472a1ebb2988dd87a5c1c1c86e0a5d25b8e85cfec2b403
+15 notice 908B    .npm/_cacache/index-v5/ef/6d/6c3079bc4cbfc2f221684c3b8029bd1892890e9d2c94ba65ae639994133a
+15 notice 10.1kB  .npm/_cacache/content-v2/sha512/65/f1/6c6e01175bbd51c3fe84b4176b3f9571049cb876d8720b4b6940a18a9981489a59a6af290ed7865af8188855dbb08ed7b48d710196148a7f43166c5a7d12
+15 notice 605B    .npm/_cacache/content-v2/sha512/8b/1f/6f60588be992c54337f5992807aa197ccc6df1e321cfed5a40d102c7f70f0786d942197fef13d62d53a16d19ff25821c92eced734006ec45f4d0736ca1ae
+15 notice 159B    .npm/_cacache/index-v5/42/e8/733f84666bf8ae51438746731476ab9b2f309ff6f8ebeda2a8ff3fe11009
+15 notice 4.1kB   .npm/_cacache/content-v2/sha512/15/03/783117ee25e1dfedc05b04c2455e12920eafb690002b06599106f72f144e410751d9297b5214048385d973f73398c3187c943767be630e7bffb971da0476
+15 notice 12.7kB  .npm/_cacache/content-v2/sha512/97/d9/78d32c76789e790f56313d12a1be75dd328419b6c4c10bee097f1cc36c8aecabd15dcd8a11a9ad7d228d6a929ef916b2225baff620c8ac09512767700633
+15 notice 49.8kB  .npm/_cacache/content-v2/sha512/ea/bb/7e44deda3a2d6718cc82e176b90dd622ba497651609b7097eded887145e046403ece00cf0f6f1c3a60ca38af676234403c1449aedf660e9fdae16a2139cb
+15 notice 1.6kB   .npm/_cacache/index-v5/b2/7a/7f30cc39d921520afe1284891289673c8d480db041402c8ee8d897cc8e79
+15 notice 3.3kB   .npm/_cacache/index-v5/f3/2c/80267cf9b394a43404ccabe3e574f5fd89b769b43be625b75ff9b1b4a2ee
+15 notice 45.9kB  .npm/_cacache/content-v2/sha512/9d/e5/81ca361d0f1ab3d11272c6c05adc4b2bd6c424f44d7a019a1418ca708378f1aa65696ce08f9cb77f855739da81be0ce00f73ccac219676ef1b96ad4edcf0
+15 notice 1.5kB   .npm/_cacache/index-v5/8e/e2/82c682d4272188ef7ce66475e52fc1debe15fc47e9695ce46fa64a04b1e4
+15 notice 1.9kB   .npm/_cacache/content-v2/sha512/32/0e/837e6fadf6ee00f422d25c2a1997b93338c1b1885421686c6a602877c0f6ca81ddfeee726ca0f977b2e10a2ae434c3b3e3d11385482176da2e1d9e38c4e3
+15 notice 753B    .npm/_cacache/index-v5/b0/e7/84970f98be8aa5deda58cac99c715f42142f02fc89e7a6a660c3a1e66e0e
+15 notice 1.9kB   .npm/_cacache/content-v2/sha512/57/94/889d2afd35059c0a1ace1b1e34641b1eb06bb81e56c2d93ca639fd20eda7685711ac9947372d36978c6ee62131b9321a94521668f92764e501dd28063457
+15 notice 1.7kB   .npm/_cacache/index-v5/e6/1a/898b58ab9a3eb26ef732cb8004d0f8e2431ee7d8c9a4a7b13701d14cfc13
+15 notice 27.3kB  .npm/_cacache/content-v2/sha512/0a/4a/8b531524d798687cba0bca58c94abba4662f2602d81dfb2139b8ee2da9166c76c0092afd0efab14c8550d1260a33cbec86ea67792b0b97843e28708a0ffb
+15 notice 90.2kB  .npm/_cacache/content-v2/sha512/9e/67/8dbe0c0caafe7c5dc84cfab6737bc3e5907d703549ff7cba5ee9d5374c336abf78c6a5d23e255a3062febe15b83351b6a78a79f30c0c8a415e4b61c694f7
+15 notice 1.1kB   .npm/_cacache/index-v5/0f/c1/8f9106d062b08ae697dbf7d2ab19696570671a75708757fea39cadacd4ae
+15 notice 28.1kB  .npm/_cacache/content-v2/sha512/2c/67/90d71a0177e42490ae5ca41b34fad328d0a65eb2c005ab95915c93e28d82216f6b67ae52509f9064859d78824c9d2ac4d2a8fd2352da32dc9de6a63882f3
+15 notice 37.2kB  .npm/_cacache/content-v2/sha512/8b/fd/976e74b3feec51094ebe35d54980a5834cce36efe32a61b910cc3df6d43b8240952a3ae24a200d08336f96db1b581dd28e999e1d47a7c4c6c7784972fe59
+15 notice 43.7kB  .npm/_cacache/content-v2/sha512/57/86/9883cf63128551c516f67c974083c147bc8edc13261d54087de071f45082bca09c547e48e50d037d45b331f9b1233fbfa080c885469ad2b62d37d8e8a9c7
+15 notice 81.9kB  .npm/_cacache/content-v2/sha512/53/12/98c00a71b299ab4cc7e799e17c95c691dabb635aa209b4e38d0520f326bbc7a1efeead564ff8085fab5107d9c2bf34b4c8632b77f89a8b9ce9a13bc2a0ae
+15 notice 1.5kB   .npm/_cacache/index-v5/2f/b5/99a8ac8d9fe0f2ad4894aa959445cb3e3c9b6cd11883956769678b196ced
+15 notice 8.2kB   .npm/_cacache/content-v2/sha1/b9/91/9ca1487b1f0e8417bcdb052ba261ceb63660
+15 notice 2.5kB   .npm/_cacache/content-v2/sha512/45/b2/a086b902fce3ea6b63b4d78ca521e79fc9e5276c839d64ac2e2482dbc00a9b7b84df04524426a6f32c3da41389fa80b611f1e8fbe5eb2a381ede72e1e67f
+15 notice 1.6kB   .npm/_cacache/index-v5/4c/74/a2b741aec6bd4dd94223969fdf1afbd63e8b8cbafb7cd5d5029acb3181e1
+15 notice 60.2kB  .npm/_cacache/content-v2/sha512/cd/0d/a5d17652fbe3390c41a39b68568e970330925c2f831191eb58f7efad1267c73cd530bd1691d9ce729981682d15d836e718d1bf244dcd2d9694ed51af52a8
+15 notice 1.6kB   .npm/_cacache/index-v5/3f/25/a70cdeefb471ea90d9d714db62bbfa808c61c7d0918200c6782caf70bdcb
+15 notice 37.0kB  .npm/_cacache/content-v2/sha512/4e/4e/a8f5d6028b3249fa3a5a275ea600d0c3aba4f00f1458c8620f7b9e64c205f638fc8c19fe4b974935aa871732ac9fca2c0eca0d456b78cdc92c7d169549e8
+15 notice 1.5kB   .npm/_cacache/index-v5/5e/2f/b0d7ba846044fe5a2fa1d8341f6a7f56438ae9161709a548cbda5f1fd7c3
+15 notice 1.6kB   .npm/_cacache/index-v5/12/57/b32d051b69b7c1e18a135499e2704ce3a16bbd4fe3dee45f8729567a14f2
+15 notice 5.5kB   .npm/_cacache/content-v2/sha512/d1/33/b6c89e581d8afb336cf34fb803535b5bc07c445160422edd25b1c48da5c7407c5c89395129458352ec45d57132cd8ffdb940ef20ba51c2e49b53cd213651
+15 notice 3.3kB   .npm/_cacache/content-v2/sha1/29/0c/bb232e306942d7d7ea9b83732ab7856f8285
+15 notice 3.3kB   .npm/_cacache/index-v5/82/cc/bb489dd687c88507c8c85b838de1b546227770b5d1f4c0b3815c9a88275d
+15 notice 1.5kB   .npm/_cacache/index-v5/ac/87/bd0ca62cf5353023a90b6b037f55945cd0a4130010992e9583f149496354
+15 notice 1.5kB   .npm/_cacache/index-v5/0b/2a/c0d221e8aba51b0dc57e1fcb74d5f9dcd49c9ed7f78bd84a32ae8ee54be8
+15 notice 3.3kB   .npm/_cacache/index-v5/b0/4a/c18a99a2710b49b5a3a1121226be4940f623f8ba056f8108a634ed347da9
+15 notice 1.6kB   .npm/_cacache/index-v5/6b/4c/c6347cf8ba03569528a81d6aa616198a0dd2072839f76158586c709fcefc
+15 notice 972B    .npm/_cacache/index-v5/9e/e0/c6546d18fb9ddaf91053bea836b9dc7de460386d9089b5241ec1950aacde
+15 notice 1.5kB   .npm/_cacache/index-v5/86/37/c9d60ce812430c4aeb9fcc981e923449b478a93278b3ff0cf3c7e56a71cc
+15 notice 1.8kB   .npm/_cacache/index-v5/8c/de/cf1ba5d8cf5b5c2cae0fbb8330c398c7928885f8c0220e17054b54145912
+15 notice 1.6kB   .npm/_cacache/index-v5/2a/cd/d0f5dc17aa07fcfcec35d4ce7e62af96a729c3565cbf458507ea9b7f64bc
+15 notice 1.1kB   .npm/_cacache/index-v5/14/e8/d130141895feca461cd28741873ec7108c8bd7aeec4aab66847ff796aeed
+15 notice 13.9kB  .npm/_cacache/content-v2/sha512/7d/2a/d1eba9f497aae85bd471e2b48b3324cf4e3453897cb9455a833aeac0090eac8b5aca1c7283539830049a02b08574477a3d822f8ae746a497fab2c350bbe0
+15 notice 156B    .npm/_cacache/index-v5/c7/93/d23a04a35158575ed2e59ade8208ddbe7df4d09a67ea44f84c9c599e6dee
+15 notice 3.4kB   .npm/_cacache/index-v5/9f/58/d2e6438b76699d9ad11e3d3072f084427c2a6835220480c267daab7f09e7
+15 notice 572B    .npm/_cacache/content-v2/sha1/8a/7b/d37186b6dddf3813f23858b57ecaaf5e41d4
+15 notice 8.3kB   .npm/_cacache/content-v2/sha512/ea/63/d380bc589b7afa064920d2f34cd074e37c6ace12db1f6e16a042f6f10c4b04929361c39f36ba905aa116729737a7ea4ac49b15c982df49bba1e22383bb04
+15 notice 287B    .npm/_cacache/content-v2/sha512/9c/06/d76baa16b8785cf429de00d1729f9421d6baece02f6d66f09fd613988f26d5073717819b1886e65969e78410cd41bf910d238b5e640890ac7da5b1fdb5a8
+15 notice 8.1kB   .npm/_cacache/content-v2/sha1/c7/9e/d97f7f34cb8f2ba1bc9790bcc366474b4b79
+15 notice 3.3kB   .npm/_cacache/index-v5/a0/33/dc2d9144d7e9fc7b901c508708a1a0ab0f42a39eba34884f89355ea285f5
+15 notice 795B    .npm/_cacache/index-v5/81/68/dc6a6786e448b46ef4b789b58b4d49ce885f23aa781fc3743981c8fda4d9
+15 notice 11.8kB  .npm/_cacache/content-v2/sha512/83/20/dea86a771135193fc209fe6b9789610fea4e8d697cfddb37d4984510605d4c87c83381c5267f5188da2a717f6cce9d972f853b835fac68c8efe5e3920fce
+15 notice 3.5kB   .npm/_cacache/content-v2/sha1/df/3a/e199acadfb7d440aaae0b29e2272b24ec619
+15 notice 157B    .npm/_cacache/index-v5/61/6b/e289d40d5a11156dc0bd6b40e5138468e6362513d22a6169cc5be2a32424
+15 notice 1.8kB   .npm/_cacache/index-v5/4e/d0/e8dbb9daac7c1bc2e3d424155446b59fc2ecf1d6f5a40be479e7710fd03a
+15 notice 1.4kB   .npm/_cacache/index-v5/8e/43/eb5c8dc9740d907e32f01136c72c490a6af4787ad4c09d52f07d5334a213
+15 notice 36.4kB  .npm/_cacache/content-v2/sha512/c5/a7/ecbfc8bde803956dd9ad681c63ba8f78bee9ca84f3291922d7cd31148519e7d9f9a16656868650ba64a9df4dc9b382681f13d78e5397512db51ceafa406a
+15 notice 183B    .npm/_cacache/index-v5/58/fd/ecf22700a24ec3b3f5d6397bf5a2e64010fb2376dbb81100dfce518cbecb
+15 notice 477B    .npm/_cacache/index-v5/32/e3/ef7e1247dd16f98cd5d02f8d788f301622e1ca31aaa04d8935bd9bd9ce4c
+15 notice 1.2kB   .npm/_cacache/index-v5/6e/2e/f546af0e3be2197f9097ba7c919305fcbdd2dbc5b6d5704ed95ce4f7c464
+15 notice 156B    .npm/_cacache/index-v5/10/70/f6ef940dcaa40748d3f6f5fe650fa4d7feb88e17b162771a7c917b6bf136
+15 notice 1.2kB   .npm/_cacache/index-v5/aa/39/f86bc871f462ab80c11f6741ff423da54df3f87abf844f240f3002aea9e1
+15 notice 3.4kB   .npm/_cacache/index-v5/b3/d5/f89de4d15919290536e1edd9d5e907894ccf93b82b18912a2e44c59c0498
+15 notice 3.4kB   .npm/_cacache/index-v5/74/6c/f98ff9206416cb18967ff4ab6449888f98d46a945d4e7f408ddd26f9fd23
+15 notice 1.4kB   .npm/_cacache/index-v5/53/44/fa2a4475443157eb06cd770fcc888f7164421ece1e7b249c1598c3cea64c
+15 notice 3.4kB   .npm/_cacache/index-v5/ce/ae/fd93e677a614f57b325ca5f22842c3e00f2071dd70d44f24a4b413d6fe52
+15 notice 82B     src/index.js
+15 notice 1.3kB   src/structures/NekoClient.js
+15 notice 158B    test.js
+15 notice 171B    .npm/anonymous-cli-metrics.json
+15 notice 528B    package.json
+15 notice 55B     .config/configstore/update-notifier-npm.json
+15 notice 3.5kB   .npm/_logs/2021-01-20T19_10_12_812Z-debug.log
+15 notice 3.6kB   .npm/_logs/2021-01-20T19_15_52_359Z-debug.log
+15 notice 3.8kB   .npm/_logs/2021-01-20T19_17_38_403Z-debug.log
+15 notice 1.8kB   .npm/_logs/2021-01-25T16_07_21_562Z-debug.log
+15 notice 16.3kB  .npm/_logs/2021-02-07T13_53_26_487Z-debug.log
+15 notice 16.3kB  .npm/_logs/2021-02-07T13_54_06_803Z-debug.log
+15 notice 848B    README.md
+16 notice === Tarball Details ===
+17 notice name:          nekos.best
+17 notice version:       0.0.1
+17 notice package size:  1.1 MB
+17 notice unpacked size: 1.5 MB
+17 notice shasum:        7c1d05c171ef4cd542b3a182559f92fb97e46575
+17 notice integrity:     sha512-8OqO4UqaazXKa[...]grDDaFN21j1yg==
+17 notice total files:   118
+18 notice
+19 http fetch PUT 404 https://registry.npmjs.org/nekos.best 2350ms
+20 verbose stack Error: 404 Not Found - PUT https://registry.npmjs.org/nekos.best - Not found
+20 verbose stack     at /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+20 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+21 verbose statusCode 404
+22 verbose pkgid nekos.best@0.0.1
+23 verbose cwd /home/container
+24 verbose Linux 4.19.0-13-amd64
+25 verbose argv "/usr/bin/node" "/usr/bin/npm" "publish"
+26 verbose node v14.15.0
+27 verbose npm  v6.14.8
+28 error code E404
+29 error 404 Not Found - PUT https://registry.npmjs.org/nekos.best - Not found
+30 error 404
+31 error 404 'nekos.best@0.0.1' is not in the npm registry.
+32 error 404 You should bug the author to publish it (or use the name yourself!)
+33 error 404 Note that you can also install from a
+34 error 404 tarball, folder, http url, or git url.
+35 verbose exit [ 1, true ]

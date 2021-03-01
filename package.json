@@ -1,0 +1,24 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "nekos.best-api",
+  "version": "0.1.1",
+  "description": "An wrapper for nekos.best api",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "engines": {
+    "node": ">=12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "api", 
+      "wrapper", 
+      "nekos" 
+  ]
+}

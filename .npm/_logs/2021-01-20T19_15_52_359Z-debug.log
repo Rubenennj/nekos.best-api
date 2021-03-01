@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@6.14.8
+3 info using node@v14.15.0
+4 verbose config Skipping project config: /home/container/.npmrc. (matches userconfig)
+5 verbose npm-session e6a373d2d1bc49d6
+6 verbose publish [ '.' ]
+7 info lifecycle neko.db@0.0.1~prepublish: neko.db@0.0.1
+8 info lifecycle neko.db@0.0.1~prepare: neko.db@0.0.1
+9 info lifecycle neko.db@0.0.1~prepublishOnly: neko.db@0.0.1
+10 info lifecycle neko.db@0.0.1~prepack: neko.db@0.0.1
+11 info lifecycle neko.db@0.0.1~postpack: neko.db@0.0.1
+12 notice
+13 notice 📦  neko.db@0.0.1
+14 notice === Tarball Contents ===
+15 notice 1B    .npm/_cacache/content-v2/sha512/0b/61/241d7c17bcbb1baee7094d14b7c451efecc7ffcbd92598a0f13d313cc9ebc2a07e61f007baf58fbf94ff9a8695bdd5cae7ce03bbf1e94e93613a00f25f21
+15 notice 179B  .npm/_cacache/index-v5/34/8e/30c54cce758990bcd1b33114c4aa8a9e5a25c152ac39d9feab22b7e13e00
+15 notice 605B  .npm/_cacache/content-v2/sha512/8b/1f/6f60588be992c54337f5992807aa197ccc6df1e321cfed5a40d102c7f70f0786d942197fef13d62d53a16d19ff25821c92eced734006ec45f4d0736ca1ae
+15 notice 159B  .npm/_cacache/index-v5/42/e8/733f84666bf8ae51438746731476ab9b2f309ff6f8ebeda2a8ff3fe11009
+15 notice 1.5kB .npm/_cacache/index-v5/8e/e2/82c682d4272188ef7ce66475e52fc1debe15fc47e9695ce46fa64a04b1e4
+15 notice 572B  .npm/_cacache/content-v2/sha1/8a/7b/d37186b6dddf3813f23858b57ecaaf5e41d4
+15 notice 795B  .npm/_cacache/index-v5/81/68/dc6a6786e448b46ef4b789b58b4d49ce885f23aa781fc3743981c8fda4d9
+15 notice 157B  .npm/_cacache/index-v5/61/6b/e289d40d5a11156dc0bd6b40e5138468e6362513d22a6169cc5be2a32424
+15 notice 183B  .npm/_cacache/index-v5/58/fd/ecf22700a24ec3b3f5d6397bf5a2e64010fb2376dbb81100dfce518cbecb
+15 notice 1.4kB .npm/_cacache/index-v5/53/44/fa2a4475443157eb06cd770fcc888f7164421ece1e7b249c1598c3cea64c
+15 notice 2.6kB index.js
+15 notice 146B  test.js
+15 notice 171B  .npm/anonymous-cli-metrics.json
+15 notice 508B  package.json
+15 notice 55B   .config/configstore/update-notifier-npm.json
+15 notice 3.5kB .npm/_logs/2021-01-20T19_10_12_812Z-debug.log
+15 notice 491B  README.md
+15 notice 2B    database.sqlite
+16 notice === Tarball Details ===
+17 notice name:          neko.db
+17 notice version:       0.0.1
+17 notice package size:  6.2 kB
+17 notice unpacked size: 13.0 kB
+17 notice shasum:        1ebd318d464c42769eaaf598fb5edc4c1d968f4a
+17 notice integrity:     sha512-VTyR8249NHZDk[...]BJkCGpabnX6Tw==
+17 notice total files:   18
+18 notice
+19 http fetch PUT 403 https://registry.npmjs.org/neko.db 645ms
+20 verbose stack Error: 403 Forbidden - PUT https://registry.npmjs.org/neko.db - Package name too similar to existing packages; try renaming your package to '@ruben40000/neko.db' and publishing with 'npm publish --access=public' instead
+20 verbose stack     at /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+20 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+21 verbose statusCode 403
+22 verbose pkgid neko.db@0.0.1
+23 verbose cwd /home/container
+24 verbose Linux 4.19.0-13-amd64
+25 verbose argv "/usr/bin/node" "/usr/bin/npm" "publish"
+26 verbose node v14.15.0
+27 verbose npm  v6.14.8
+28 error code E403
+29 error 403 403 Forbidden - PUT https://registry.npmjs.org/neko.db - Package name too similar to existing packages; try renaming your package to '@ruben40000/neko.db' and publishing with 'npm publish --access=public' instead
+30 error 403 In most cases, you or one of your dependencies are requesting
+30 error 403 a package version that is forbidden by your security policy.
+31 verbose exit [ 1, true ]
